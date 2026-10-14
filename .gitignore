@@ -1,0 +1,26 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Artefatos do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Empacotamento (PyInstaller)
+build/
+dist/
+*.manifest
+
+# Saídas da aplicação
+hash_calculator.log
+hash_calculator.log.*
+Relatorio_Hashes_*.xlsx
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

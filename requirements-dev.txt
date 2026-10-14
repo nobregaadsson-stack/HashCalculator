@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------------------
+# HashCalculator - dependencias de desenvolvimento (testes e empacotamento)
+# Instale com:  pip install -r requirements-dev.txt
+# ---------------------------------------------------------------------------
+
+-r requirements.txt
+
+# Testes automatizados.
+pytest>=8.0
+
+# Geracao do executavel .exe.
+pyinstaller>=6.0
